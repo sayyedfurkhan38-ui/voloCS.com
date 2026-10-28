@@ -1,0 +1,247 @@
+{
+  "organizations": [
+    {
+      "id": "org_volosc_global",
+      "name": "VoloSC Global Enterprise",
+      "subdomain": "volosc-global.volosc.cloud",
+      "plan": "VoloSC Enterprise Ultimate (7-Day Trial)",
+      "currency": "INR",
+      "created_at": "2026-10-28T10:54:43.684Z"
+    }
+  ],
+  "users": [
+    {
+      "id": "usr_admin_01",
+      "org_id": "org_volosc_global",
+      "email": "sayyedfurkhan38@gmail.com",
+      "name": "Sayyed Furkhan",
+      "password_hash": "c60988bd82922df7c16ea46e31b57309e6dcee6d3a31cdd1d8d3a789d8764fb5",
+      "role": "Super Admin",
+      "created_at": "2026-10-28T10:54:43.684Z"
+    },
+    {
+      "id": "usr_sarah_02",
+      "org_id": "org_volosc_global",
+      "email": "sarah.chen@volosc.com",
+      "name": "Sarah Chen",
+      "password_hash": "c60988bd82922df7c16ea46e31b57309e6dcee6d3a31cdd1d8d3a789d8764fb5",
+      "role": "Sales Manager",
+      "created_at": "2026-10-28T10:54:43.685Z"
+    }
+  ],
+  "sessions": [],
+  "records": [
+    {
+      "id": "REC-CRM-001",
+      "app_id": "volosc-crm",
+      "org_id": "org_volosc_global",
+      "created_by": "sayyedfurkhan38@gmail.com",
+      "created_at": "2026-10-26T10:54:43.685Z",
+      "updated_by": "sayyedfurkhan38@gmail.com",
+      "updated_at": "2026-10-28T10:54:43.685Z",
+      "status": "Active",
+      "data": {
+        "customer_id": "CUST-7001",
+        "name": "Alex Mercer",
+        "company": "Starlight Global Technologies",
+        "email": "a.mercer@starlight.io",
+        "phone": "+91 98200 12345",
+        "deal_value": 245000,
+        "stage": "Proposal/Quote",
+        "owner": "Sarah Chen",
+        "activity_history": "Product demo presentation completed with VP of Eng."
+      }
+    },
+    {
+      "id": "REC-CRM-002",
+      "app_id": "volosc-crm",
+      "org_id": "org_volosc_global",
+      "created_by": "sayyedfurkhan38@gmail.com",
+      "created_at": "2026-10-27T10:54:43.685Z",
+      "updated_by": "sayyedfurkhan38@gmail.com",
+      "updated_at": "2026-10-28T10:54:43.685Z",
+      "status": "Negotiation",
+      "data": {
+        "customer_id": "CUST-7002",
+        "name": "Elena Rostova",
+        "company": "Hyperion Logistics Cloud",
+        "email": "elena@hyperioncloud.com",
+        "phone": "+91 98330 54321",
+        "deal_value": 120000,
+        "stage": "Negotiation",
+        "owner": "Sayyed Furkhan",
+        "activity_history": "MSA sent for enterprise security compliance review."
+      }
+    },
+    {
+      "id": "REC-INV-001",
+      "app_id": "volosc-invoice",
+      "org_id": "org_volosc_global",
+      "created_by": "sayyedfurkhan38@gmail.com",
+      "created_at": "2026-10-25T10:54:43.685Z",
+      "updated_by": "sayyedfurkhan38@gmail.com",
+      "updated_at": "2026-10-28T10:54:43.685Z",
+      "status": "Sent",
+      "data": {
+        "invoice_number": "INV-2026-0042",
+        "customer_name": "Starlight Global Technologies",
+        "amount": 245000,
+        "due_date": "2026-11-15",
+        "payment_terms": "Net 30",
+        "currency": "INR"
+      }
+    },
+    {
+      "id": "REC-BKS-001",
+      "app_id": "volosc-books",
+      "org_id": "org_volosc_global",
+      "created_by": "sayyedfurkhan38@gmail.com",
+      "created_at": "2026-10-24T10:54:43.685Z",
+      "updated_by": "sayyedfurkhan38@gmail.com",
+      "updated_at": "2026-10-28T10:54:43.685Z",
+      "status": "Posted",
+      "data": {
+        "voucher_id": "VCH-2026-8801",
+        "account_debit": "Accounts Receivable",
+        "account_credit": "Subscription Revenue",
+        "amount": 245000,
+        "narration": "Subscription billing for Q4 enterprise license",
+        "status": "Posted"
+      }
+    },
+    {
+      "id": "DEAL-9234",
+      "app_id": "volosc-crm",
+      "org_id": "org_volosc_global",
+      "created_by": "sayyedfurkhan38@gmail.com",
+      "created_at": "2026-10-28T10:54:50.915Z",
+      "updated_by": "sayyedfurkhan38@gmail.com",
+      "updated_at": "2026-10-28T10:54:50.915Z",
+      "status": "Closed Won",
+      "data": {
+        "lead_id": "LEAD-1918",
+        "name": "Apex BioResearch",
+        "company": "Starlight Global",
+        "email": "a.mercer@starlight.io",
+        "deal_value": 380000,
+        "stage": "Closed Won",
+        "batch_ref": "TXN-1793184890915"
+      }
+    },
+    {
+      "id": "SO-3461",
+      "app_id": "volosc-sales-orders",
+      "org_id": "org_volosc_global",
+      "created_by": "sayyedfurkhan38@gmail.com",
+      "created_at": "2026-10-28T10:54:50.915Z",
+      "updated_by": "sayyedfurkhan38@gmail.com",
+      "updated_at": "2026-10-28T10:54:50.915Z",
+      "status": "Confirmed",
+      "data": {
+        "order_id": "SO-3461",
+        "deal_id": "DEAL-9234",
+        "customer": "Apex BioResearch",
+        "sku": "SKU-CLOUD-LIC-ENT",
+        "quantity": 10,
+        "total_amount": 380000,
+        "batch_ref": "TXN-1793184890915"
+      }
+    },
+    {
+      "id": "STK-2636",
+      "app_id": "volosc-inventory",
+      "org_id": "org_volosc_global",
+      "created_by": "sayyedfurkhan38@gmail.com",
+      "created_at": "2026-10-28T10:54:50.915Z",
+      "updated_by": "sayyedfurkhan38@gmail.com",
+      "updated_at": "2026-10-28T10:54:50.915Z",
+      "status": "Allocated",
+      "data": {
+        "sku": "SKU-CLOUD-LIC-ENT",
+        "allocated_quantity": 10,
+        "warehouse": "Mumbai Cloud Hub (Central-01)",
+        "order_ref": "SO-3461",
+        "batch_ref": "TXN-1793184890915"
+      }
+    },
+    {
+      "id": "INV-8444",
+      "app_id": "volosc-invoice",
+      "org_id": "org_volosc_global",
+      "created_by": "sayyedfurkhan38@gmail.com",
+      "created_at": "2026-10-28T10:54:50.915Z",
+      "updated_by": "sayyedfurkhan38@gmail.com",
+      "updated_at": "2026-10-28T10:54:50.915Z",
+      "status": "Paid",
+      "data": {
+        "invoice_number": "INV-8444",
+        "customer": "Apex BioResearch",
+        "amount": 380000,
+        "tax": 68400,
+        "total": 448400,
+        "order_ref": "SO-3461",
+        "batch_ref": "TXN-1793184890915"
+      }
+    },
+    {
+      "id": "PAY-9895",
+      "app_id": "volosc-payments",
+      "org_id": "org_volosc_global",
+      "created_by": "sayyedfurkhan38@gmail.com",
+      "created_at": "2026-10-28T10:54:50.915Z",
+      "updated_by": "sayyedfurkhan38@gmail.com",
+      "updated_at": "2026-10-28T10:54:50.915Z",
+      "status": "Settled",
+      "data": {
+        "payment_id": "PAY-9895",
+        "invoice_ref": "INV-8444",
+        "amount": 448400,
+        "gateway": "VoloSC Enterprise Gateway / UPI",
+        "settlement_status": "Completed",
+        "batch_ref": "TXN-1793184890915"
+      }
+    },
+    {
+      "id": "JRN-3724",
+      "app_id": "volosc-books",
+      "org_id": "org_volosc_global",
+      "created_by": "sayyedfurkhan38@gmail.com",
+      "created_at": "2026-10-28T10:54:50.915Z",
+      "updated_by": "sayyedfurkhan38@gmail.com",
+      "updated_at": "2026-10-28T10:54:50.915Z",
+      "status": "Posted",
+      "data": {
+        "entry_id": "JRN-3724",
+        "debit_account": "Bank Operating Account (1010)",
+        "credit_account": "Subscription Revenue (4010)",
+        "tax_account": "GST Payable (2020)",
+        "amount": 448400,
+        "narration": "Automated journal entry for Invoice INV-8444 / Payment PAY-9895",
+        "batch_ref": "TXN-1793184890915"
+      }
+    }
+  ],
+  "audit_logs": [
+    {
+      "id": "AUD-001",
+      "org_id": "org_volosc_global",
+      "user_id": "usr_admin_01",
+      "action": "ORGANIZATION_INITIALIZED",
+      "app_id": "system",
+      "entity_id": "org_volosc_global",
+      "details": "VoloSC Global Enterprise organization created with Super Admin privileges",
+      "timestamp": "2026-10-28T10:54:43.685Z"
+    },
+    {
+      "id": "AUD-1793184890915",
+      "org_id": "org_volosc_global",
+      "user_id": "usr_admin_01",
+      "action": "CROSS_APP_PIPELINE_EXECUTED",
+      "app_id": "workflow",
+      "entity_id": "TXN-1793184890915",
+      "details": "End-to-end transaction executed across 6 applications for Apex BioResearch ($380000)",
+      "timestamp": "2026-10-28T10:54:50.915Z"
+    }
+  ],
+  "workflows": []
+}

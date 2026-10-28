@@ -1,0 +1,6 @@
+{
+  "name": "voloCS Cloud & Enterprise Platform",
+  "description": "Unified business software suite with comprehensive enterprise applications, office productivity tools, cloud services, and developer infrastructure under voloCS.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
